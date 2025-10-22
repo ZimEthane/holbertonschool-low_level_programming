@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - check the code.
+ * add - check the code.
  * @a: first integer
  * @b: second integer
  *
