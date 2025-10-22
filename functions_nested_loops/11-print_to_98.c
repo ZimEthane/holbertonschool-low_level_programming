@@ -12,7 +12,9 @@ if (n <= 98)
 {
 while (n < 98)
 {
-printf("%d, ", n);
+_putchar(n + '0');
+_putchar(',');
+_putchar(' ');
 n++;
 }
 }
@@ -20,9 +22,13 @@ else
 {
 while (n > 98)
 {
-printf("%d, ", n);
+_putchar(n + '0');
+_putchar(',');
+_putchar(' ');
 n--;
 }
 }
-printf("98\n");
+_putchar('9');
+_putchar('8');
+_putchar('\n');
 }
