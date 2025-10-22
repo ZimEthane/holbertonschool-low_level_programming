@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_to_98 - check the code.
- * @n: The number to start from
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n: starting number
  *
  * Return: Always 0.
  */
@@ -12,9 +12,7 @@ if (n <= 98)
 {
 while (n < 98)
 {
-_putchar(n + '0');
-_putchar(',');
-_putchar(' ');
+printf("%d, ", n);
 n++;
 }
 }
@@ -22,13 +20,9 @@ else
 {
 while (n > 98)
 {
-_putchar(n + '0');
-_putchar(',');
-_putchar(' ');
+printf("%d, ", n);
 n--;
 }
 }
-_putchar('9');
-_putchar('8');
-_putchar('\n');
+printf("98\n");
 }
