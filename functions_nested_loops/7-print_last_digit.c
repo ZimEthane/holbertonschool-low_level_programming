@@ -1,13 +1,19 @@
 #include "main.h"
 
 /**
- * _abs - check the code.
+ * print_last_digit - check the code.
  * @n: The character to be checked
  *
  * Return: Always 0.
  */
-int _abs(int n)
+int print_last_digit(int n)
 {
-n = (n < 0) ? -n : n;
-return (n);
+int last_digit;
+last_digit = n % 10;
+if (last_digit < 0)
+{
+last_digit = -last_digit;
+}
+_putchar(last_digit + '0');
+return (last_digit);
 }
