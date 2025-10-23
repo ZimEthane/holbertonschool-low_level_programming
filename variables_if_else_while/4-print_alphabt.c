@@ -7,19 +7,19 @@
 
 int main(void)
 {
-char n = 'a';
-while (n <= 'z')
-{
-if (n != 'e' && n != 'q')
-{
-putchar(n);
-n++;
-}
-else
-{
-n++;
-}
-}
-printf("\n");
-return (0);
+	char n = 'a';
+	while (n <= 'z')
+	{
+		if (n != 'e' && n != 'q')
+		{
+			putchar(n);
+			n++;
+		}
+		else
+		{
+			n++;
+		}
+	}
+	printf("\n");
+	return (0);
 }

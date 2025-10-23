@@ -7,18 +7,18 @@
 
 int main(void)
 {
-char n = 'a';
-while (n <= 'z')
-{
-putchar(n);
-n++;
-}
-n = 'A';
-while (n <= 'Z')
-{
-putchar(n);
-n++;
-}
-printf("\n");
-return (0);
+	char n = 'a';
+	while (n <= 'z')
+	{
+		putchar(n);
+		n++;
+	}
+	n = 'A';
+	while (n <= 'Z')
+	{
+		putchar(n);
+		n++;
+	}
+	printf("\n");
+	return (0);
 }

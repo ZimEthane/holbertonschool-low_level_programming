@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-char caracter = 'a';
-char number = '0';
-while (number <= '9')
-{
-putchar(number);
-number++;
-}
-while (caracter <= 'f')
-{
-putchar(caracter);
-caracter++;
-}
-printf("\n");
-return (0);
+	char caracter = 'a';
+	char number = '0';
+	while (number <= '9')
+	{
+		putchar(number);
+		number++;
+	}
+	while (caracter <= 'f')
+	{
+		putchar(caracter);
+		caracter++;
+	}
+	printf("\n");
+	return (0);
 }
