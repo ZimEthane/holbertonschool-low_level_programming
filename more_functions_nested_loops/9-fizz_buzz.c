@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
  */
 
-void FizzBuzz(void)
+int FizzBuzz(void)
 {
 	int i;
 
