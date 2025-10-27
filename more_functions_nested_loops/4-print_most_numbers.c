@@ -1,4 +1,4 @@
-// #include "../functions_nested_loops/main.h"
+#include "../functions_nested_loops/main.h"
 #include <stdio.h>
 
 /**
