@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "../functions_nested_loops/main.h"
 
 /**
  * print_numbers - function multiplies two integers
