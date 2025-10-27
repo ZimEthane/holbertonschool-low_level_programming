@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * int _isupper(int c) - Entry point
+ * int _isupper - Entry point
  * @c - variable tester
  *
  * Return: Always 0 (Success)
