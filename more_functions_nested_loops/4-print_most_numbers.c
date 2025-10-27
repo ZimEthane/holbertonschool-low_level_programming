@@ -14,10 +14,13 @@ void print_most_numbers(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		if (i <= 1 && i == 3 && i <= 9)
+		switch (i)
 		{
-
-			_putchar('0' + i);
+			case 2:
+			case 4:
+				break;
+			default:
+				_putchar('0' + i);
 		}
 	}
 	_putchar('\n');
