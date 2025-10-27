@@ -19,6 +19,6 @@ void print_diagonal(int n);
 
 void print_square(int size);
 
-int FizzBuzz(void);
+
 
 #endif
