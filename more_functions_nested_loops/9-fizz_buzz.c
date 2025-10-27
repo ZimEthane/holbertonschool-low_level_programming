@@ -1,14 +1,13 @@
-#include "../functions_nested_loops/main.h"
 #include <stdio.h>
 
 /**
- * FizzBuzz - function that prints the numbers from 1 to 100
+ * main - affiche les nombres de 1 à 100 en remplaçant :
+ *        multiples de 3 par "Fizz", de 5 par "Buzz" et de 15 par "FizzBuzz"
  *
- *
- * Return: Always 0 (Success)
+ * Return: Retourne 0
  */
 
-int FizzBuzz(void)
+int main(void)
 {
 	int i;
 
