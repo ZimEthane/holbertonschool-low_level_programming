@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * print_numbers - function multiplies two integers
+ * print_most_numbers - function multiplies two integers
  *
  *
  * Return: Always 0 (Success)
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
