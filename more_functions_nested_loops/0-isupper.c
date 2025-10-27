@@ -2,7 +2,7 @@
 
 /**
  * _isupper - Entry point
- * @c - variable tester
+ * @c: variable tester
  *
  * Return: Always 0 (Success)
  */
