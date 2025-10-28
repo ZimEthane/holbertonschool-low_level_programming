@@ -15,8 +15,6 @@ void rev_string(char *s)
 	char temps;
 
 	lenght = 0;
-
-	lenght = 0;
 	while (s[lenght] != '\0')
 	{
 		j = lenght++;
