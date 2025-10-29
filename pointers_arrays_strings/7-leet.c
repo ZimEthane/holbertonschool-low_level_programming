@@ -13,7 +13,7 @@ char *leet(char *s)
 {
 	int i, j;
 	char leet_from[] = "aAeEzZoOtTlL";
-	char leet_to[] = " 4433007711";
+	char leet_to[] = "4433007711";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
