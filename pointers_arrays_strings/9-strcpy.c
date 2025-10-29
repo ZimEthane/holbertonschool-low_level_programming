@@ -5,8 +5,8 @@
  * _strcpy - copies the string pointed to by src
  * including the terminating null byte (\0)
  * to the buffer pointed to by dest.
- * @param dest: pointer to the destination array where the content is to be copied
- * @param src: pointer to the source of data to be copied
+ * @dest: pointer to the destination array where the content is to be copied
+ * @src: pointer to the source of data to be copied
  *
  *
  *
@@ -15,4 +15,11 @@
 
 char *_strcpy(char *dest, char *src)
 {
+	int i;
+
+	for (i = 0; src[i] != '/0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	return (dest);
 }
