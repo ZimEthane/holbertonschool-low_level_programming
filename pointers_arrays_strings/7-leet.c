@@ -12,12 +12,12 @@
 char *leet(char *s)
 {
 	int i, j;
-	char leet_from[] = "aAeEzZoOtTlL";
+	char leet_from[] = "aAeEoOtTlL";
 	char leet_to[] = "4433007711";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; leet_from[j] != '\0'; j++)
+		for (j = 0; j < 10; j++)
 		{
 			if (s[i] == leet_from[j])
 			{
