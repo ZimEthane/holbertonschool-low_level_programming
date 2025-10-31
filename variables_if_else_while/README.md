@@ -30,7 +30,7 @@ L’objectif est de comprendre comment exécuter des instructions de manière co
 gcc -Wall -Werror -Wextra -pedantic *.c -o variables
 
 ```
-🧠 Exemple
+## 🧠 Exemple
 ```bash
 $ ./variables
 0 is zero
