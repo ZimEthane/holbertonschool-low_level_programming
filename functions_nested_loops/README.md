@@ -32,9 +32,9 @@ L’objectif est de structurer le code en **sous-fonctions** pour le rendre plus
 gcc -Wall -Werror -Wextra -pedantic *.c -o loops
 ```
 🧠 Exemple
-```bash
 bash
 Copier le code
+```bash
 $ ./loops
 abcdefghijklmnopqrstuvwxyz
 ```
