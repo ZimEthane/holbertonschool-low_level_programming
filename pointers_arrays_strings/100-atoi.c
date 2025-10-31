@@ -20,12 +20,12 @@ int _atoi(char *s)
 		{
 			_putchar(s[i]);
 		}
-		else if (s[i] == '-')
-		{
-		}
-		else
-		{
-		}
+		// // else if (s[i] == '-')
+		// {
+		// }
+		// else
+		// {
+		// }
 	}
 	return (s[i]);
 }
