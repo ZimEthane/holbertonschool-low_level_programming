@@ -37,4 +37,6 @@ char *cap_string(char *s);
 
 char *leet(char *);
 
+int _atoi(char *s);
+
 #endif
