@@ -1,23 +1,28 @@
-# Holberton School – Low Level Programming  
-Ce dépôt contient une série d’exercices en langage C (et quelques scripts shell) issus du cursus de la Holberton School « Low Level Programming ».  
-Il a pour but de renforcer les bases de la programmation bas-niveau, la gestion mémoire, les pointeurs, les boucles, conditions, fonctions, etc.
+# 💻 Holberton School - Low Level Programming
 
-## Contenu  
-Chaque dossier correspond à un projet ou un chapitre :  
-- `hello_world` : premier programme « Hello, World! »  
-- `variables_if_else_while` : variables, conditions, boucles while/if/else  
-- `functions_nested_loops` : fonctions, boucles imbriquées, logique plus complexe  
-- …  
-Le code est écrit essentiellement en C (≈ 98 %) avec quelques scripts shell (≈ 1.8 %). :contentReference[oaicite:3]{index=3}  
-Le style de code suit les exigences de Holberton : respect des normes de nommage, indentation, lisibilité, etc.
+## 📘 Description  
+Ce dépôt contient l’ensemble des projets **C (langage bas niveau)** réalisés dans le cadre du programme Holberton School.  
+Chaque dossier correspond à un module spécifique permettant d’acquérir les bases solides du langage C, de la compilation à la manipulation mémoire, en passant par la création de fonctions, de structures et de bibliothèques.
 
-## Prérequis  
-- Un compilateur C (ex : `gcc`)  
-- Un environnement Unix/Linux ou macOS (pour les scripts shell)  
-- Connaissances de base : variables, types, opérateurs, fonctions, pointeurs
+## 🎯 Objectifs pédagogiques  
+- Comprendre le fonctionnement d’un programme en C, de la compilation à l’exécution  
+- Manipuler les **variables**, **fonctions**, **boucles**, **pointeurs**, **chaînes**, et **structures**  
+- Apprendre à gérer la mémoire (allocation dynamique, pointeurs, etc.)  
+- Se familiariser avec les **Makefiles**, la **récursivité**, et la **programmation modulaire**  
+- Construire des programmes robustes selon les **bonnes pratiques du langage C**
 
-## Instructions  
-1. Clonez le dépôt :  
-   ```bash
-   git clone https://github.com/ZimEthane/holbertonschool-low_level_programming.git
-   cd holbertonschool-low_level_programming
+## 🧱 Structure du dépôt  
+
+| Dossier | Thème principal |
+|----------|----------------|
+| `hello_world` | Introduction au langage C |
+| `variables_if_else_while` | Conditions et boucles |
+| `functions_nested_loops` | Fonctions et boucles imbriquées |
+| `more_functions_nested_loops` | Fonctions avancées |
+| `pointers_arrays_strings` | Pointeurs, tableaux et chaînes |
+
+## ⚙️ Compilation standard  
+Chaque programme est compilé avec :  
+```bash
+gcc -Wall -Werror -Wextra -pedantic
+```
