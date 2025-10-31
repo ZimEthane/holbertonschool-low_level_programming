@@ -16,9 +16,9 @@ int _atoi(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (s[i] > '0' && s[i] <= '9')
+		if (s[i] >= '0' && s[i] <= '9')
 		{
-			_putchar(s[i]);
+			_putchar(s[i] - '0');
 		}
 		else if (s[i] == '-')
 		{
