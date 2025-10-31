@@ -31,7 +31,7 @@ L’objectif est de structurer le code en **sous-fonctions** pour le rendre plus
 ```bash
 gcc -Wall -Werror -Wextra -pedantic *.c -o loops
 ```
-🧠 Exemple
+## 🧠 Exemple
 ```bash
 $ ./loops
 abcdefghijklmnopqrstuvwxyz
