@@ -30,7 +30,7 @@ Il met l’accent sur les **tests de caractères**, la **géométrie avec des bo
 ```bash
 gcc -Wall -Werror -Wextra -pedantic *.c -o more_loops
 ```
-🧠 Exemple
+## 🧠 Exemple
 ```bash
 $ ./more_loops
 FizzBuzz
