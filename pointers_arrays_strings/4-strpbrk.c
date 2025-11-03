@@ -1,0 +1,27 @@
+#include "../functions_nested_loops/main.h"
+#include <stdio.h>
+
+/**
+ * _strpbrk - function that searches a string for any of a set of bytes
+ * @s: pointer to the string to be searched
+ * @accept: pointer to the string containing the characters to match
+ *
+ *
+ * Return: Always 0 (Success)
+ */
+
+char *_strpbrk(char *s, char *accept)
+{
+	char *a;
+
+	while (*s)
+	{
+		for (a = accept; *a; a++)
+		{
+			if (*s == *a)
+				return (s);
+		}
+		s++;
+	}
+	return (NULL);
+}
