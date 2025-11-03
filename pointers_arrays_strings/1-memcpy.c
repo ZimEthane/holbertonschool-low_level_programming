@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * _memset - function that fills memory with a constant byte
- * @s: pointer to the memory area
- * @b: constant byte to fill the memory area
- * @n: number of bytes to be filled
+ * _memcpy - function that copies memory area
+ * @dest: pointer to the destination memory area
+ * @src: pointer to the source memory area
+ * @n: number of bytes to be copied
  *
  * Return: Always 0 (Success)
  */
