@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _strpbrk - function that searches a string for any of a set of bytes
- * @s: pointer to the string to be searched
- * @accept: pointer to the string containing the characters to match
+ * _strstr - function that locates a substring
+ * @haystack: pointer to the string to be searched
+ * @needle: pointer to the substring to be located
  *
  *
  * Return: Always 0 (Success)
