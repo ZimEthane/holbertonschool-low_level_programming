@@ -2,6 +2,22 @@
 #include <stdio.h>
 
 /**
+ * _sqrt_recursion - function that returns the natural square root of a number
+ * @n: number to find the square root of
+ *
+ * Return: natural square root of n or -1 if n has no natural square root
+ */
+
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+	{
+		return (-1);
+	}
+	return (_sqrt_helper(n, 0));
+}
+
+/**
  * _sqrt_helper - helper function to find the square root
  * @n: number to find the square root of
  * @guess: current guess for the square root
@@ -18,5 +34,8 @@ int _sqrt_helper(int n, int guess)
 	{
 		return (-1);
 	}
-	return (_sqrt_helper(n, guess + 1));
+	else
+	{
+		return (_sqrt_helper(n, guess + 1));
+	}
 }
