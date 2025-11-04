@@ -2,26 +2,44 @@
 #include <stdio.h>
 
 /**
- * is_prime_number - function that returns 1 if the input integer
- * is a prime number, otherwise return 0
- * @n: number to check
+ * is_prime_helper - helps to determine if a number is prime
+ *
+ * @n: number to be checked
+ * @guess: number to divide n by
+ *
+ * Return: 1 if n is divisible by guess, 0 otherwise
+ */
+int is_prime_helper(int n, int guess)
+{
+	if (guess == 1)
+	{
+		return (1);
+	}
+	if (n % guess == 0)
+	{
+		return (0);
+	}
+	return (is_prime_helper(n, guess - 1));
+}
+/**
+ * is_prime_number - checks if a number is prime
+ *
+ * @n: number to be checked
  *
  * Return: 1 if n is prime, 0 otherwise
  */
-
 int is_prime_number(int n)
 {
 	if (n <= 1)
 	{
 		return (0);
 	}
-	if (n == 2)
+	else if (n == 2)
 	{
 		return (1);
 	}
-	if (n % 2 == 0)
+	else
 	{
-		return (0);
+		return (is_prime_helper(n, n - 1));
 	}
-	return (is_prime_number(n - 1) && (n % (n - 1) != 0));	
 }
