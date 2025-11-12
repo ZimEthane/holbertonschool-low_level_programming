@@ -11,7 +11,7 @@
  *         If memory allocation fails, return NULL
  */
 
-int *array_range(int min, int max);
+int *array_range(int min, int max)
 {
 	
 }
