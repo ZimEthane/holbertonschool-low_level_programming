@@ -1,5 +1,6 @@
 #ifndef DOG_H
 #define DOG_H
+
 /**
  * struct dog - structure qui contient des informations sur un chien.
  *
@@ -8,6 +9,7 @@
  * @owner: nom du proprietaire du chien.
  *
  */
+
 typedef struct dog
 {
 	char *name;
