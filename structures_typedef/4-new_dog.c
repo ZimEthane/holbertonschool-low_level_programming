@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * new_dog - Crée une nouvelle instance de dog_t
