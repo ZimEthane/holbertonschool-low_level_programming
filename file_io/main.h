@@ -1,5 +1,5 @@
-#ifndef fileIO_H
-#define fileIO_H
+#ifndef MAIN_H
+#define MAIN_H
 
 /*
  * File: fileIO.h
@@ -14,4 +14,4 @@
 ssize_t read_textfile(const char *filename, size_t letters);
 
 
-#endif /* fileIO_H */
+#endif /* MAIN_H */
