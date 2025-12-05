@@ -15,6 +15,7 @@ int main(int ac, char **av)
 {
 	int file_from, file_to, length_buffer, checkexit;
 	char buffer[1024];
+	
 	if (ac != 3)
 	{
 		write(STDERR_FILENO, "Usage: cp file_from file_to\n", 28);
