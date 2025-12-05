@@ -1,15 +1,12 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef FILE_IO_MAIN_H
+#define FILE_IO_MAIN_H
 
-/*
- * File: fileIO.h
- * Desc: Header file containing prototypes for file I/O functions.
- */
-
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include <unistd.h>
+#include <fcntl.h>
+#include <errno.h>
 
 ssize_t read_textfile(const char *filename, size_t letters);
 
