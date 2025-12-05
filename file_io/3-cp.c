@@ -15,7 +15,6 @@ int main(int ac, char **av)
 {
 	int file_from, file_to, length_buffer, checkexit;
 	char buffer[1024];
-
 	if (ac != 3)
 	{
 		write(STDERR_FILENO, "Usage: cp file_from file_to\n", 28);
@@ -27,7 +26,6 @@ int main(int ac, char **av)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
 		exit(98);
 	}
-
 	file_to = open(av[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (file_to == -1)
 	{
@@ -35,7 +33,6 @@ int main(int ac, char **av)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
 		exit(99);
 	}
-
 	while ((length_buffer = read(file_from, buffer, 1024)) > 0)
 		write(file_to, buffer, length_buffer);
 
@@ -45,7 +42,6 @@ int main(int ac, char **av)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
 		exit(100);
 	}
-
 	checkexit = close(file_to);
 	if (checkexit == -1)
 	{
